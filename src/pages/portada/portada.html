@@ -1,0 +1,33 @@
+<!-- <ion-header>
+  <ion-navbar> -->
+    
+<!--     <ion-title>Portada</ion-title>
+  </ion-navbar>
+</ion-header> -->
+
+<!-- <ion-content padding>
+  <h3>Ionic Menu Starter</h3>
+
+  <p>
+    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
+  </p>
+
+  <button ion-button secondary menuToggle>Toggle Menu</button>
+</ion-content> -->
+
+<ion-content>
+  <img src="assets/pages/portada.jpg">
+  <ion-fab id="main-menu">
+    <button ion-fab color="trans" menuToggle >
+      <ion-icon name="menu"></ion-icon>
+    </button>
+  </ion-fab>
+  
+  <ion-fab bottom right>
+     <button ion-fab color="light" [navPush]="pagina1Page">
+       <!-- <i class="ion-arrow-right-b"></i> -->
+       <ion-icon name="play"></ion-icon>
+     </button>
+   </ion-fab>
+
+</ion-content>

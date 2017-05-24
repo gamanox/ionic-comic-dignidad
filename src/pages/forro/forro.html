@@ -1,0 +1,26 @@
+<ion-content id="forro" >
+  <img class="pagina-bg" src="assets/pages/forro.jpg" (tap)="tapEvent()" (swiperight)="goBack()">
+  <ion-fab id="main-menu">
+    <button ion-fab color="trans" menuToggle >
+      <ion-icon name="menu"></ion-icon>
+    </button>
+  </ion-fab>
+  
+  <!-- <ion-fab bottom right>
+     <button ion-fab color="light" [navPush]="pagina1Page">
+       <i class="ion-arrow-right-b"></i>
+       <ion-icon name="play"></ion-icon>
+     </button>
+   </ion-fab> -->
+   <div class="links">
+   <a class="item" href="#" onclick="window.open('https://www.facebook.com/javierguerreromx', '_system', 'location=yes'); return false;">
+     <img src="assets/dialogos/forro-fb.png">
+   </a>
+   <a class="item" href="#" onclick="window.open('https://twitter.com/guerrerogmx', '_system', 'location=yes'); return false;">
+     <img src="assets/dialogos/forro-ins.png">
+   </a>
+   <a class="item" href="#" onclick="window.open('http://javierguerrero.mx/', '_system', 'location=yes'); return false;">
+     <img src="assets/dialogos/forro-url.png">
+   </a>
+   </div>
+</ion-content>
